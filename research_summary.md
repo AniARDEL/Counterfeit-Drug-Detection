@@ -1,5 +1,4 @@
-# Counterfeit Drug Detection Research Summary
-
+# Counterfeit Drug Detection Exploration
 ## Image Recognition Techniques
 1. **Single Shot Multi-box Detector (SSD)**
    - Used for detecting objects in images
@@ -46,12 +45,12 @@
    - Creates tamper-proof system
    - Enables end-to-end traceability
 
-## Database Verification
+## Database
 - Cloud storage for authentic medicine database
 - Verification of medicine name, composition, and packaging features
 - Comparison of extracted text with database records
 
-## System Workflow (Based on Research)
+## System Workflow
 1. Image input of medicine packaging
 2. Object detection to identify logo, text, and other packaging features
 3. Text extraction using OCR
