@@ -1,6 +1,6 @@
 # Counterfeit Drug Detection System
 
-![Counterfeit Drug Detection](https://www.fda.gov/files/Counterfeit-medicine-tablet-pill-capsule-600x400-Purchased-Adobe-Stock.jpg)
+
 
 ## Overview
 
