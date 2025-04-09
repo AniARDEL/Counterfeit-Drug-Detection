@@ -1,4 +1,4 @@
-# Counterfeit Drug Detection System - Improved Final Report
+# Counterfeit Drug Detection System - Report
 
 ## 1. Executive Summary
 
