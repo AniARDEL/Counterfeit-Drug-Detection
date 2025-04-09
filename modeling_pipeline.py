@@ -1,19 +1,4 @@
 #!/usr/bin/env python3
-"""
-Improved Modeling Pipeline for Counterfeit Drug Detection
-
-This script implements an improved modeling pipeline for counterfeit drug detection
-using a combination of image recognition and text-based verification techniques.
-The pipeline includes data preprocessing, feature extraction, model training,
-and evaluation components.
-
-Usage:
-    python modeling_pipeline.py
-
-Author: Manus AI
-Date: April 2025
-"""
-
 import os
 import cv2
 import numpy as np
