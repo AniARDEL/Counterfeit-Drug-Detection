@@ -51,7 +51,8 @@ Our analysis of visual features across authentic medications showed several cons
 | **Print Quality**     | High resolution            | Variable resolution        |
 | **Imprint Clarity**   | Clear, consistent depth    | Often shallow or irregular |
 
-![Feature Distribution](feature_distribution.png)
+![feature_distribution](https://github.com/user-attachments/assets/7ac44580-dc3a-4d6d-a53f-bff4ddcc2f9a)
+
 
 #### Class Imbalance Analysis
 
@@ -282,7 +283,7 @@ The confusion matrices for both models illustrate the fundamental differences in
 
 **Model 1 Confusion Matrix:**
 
-![Model 1 Confusion Matrix](confusion_matrix_model1.png)
+![confusion_matrix_model1](https://github.com/user-attachments/assets/53ac97fd-704b-4721-814c-e9454c98606d)
 
 ```
 [[25 25]
@@ -291,7 +292,8 @@ The confusion matrices for both models illustrate the fundamental differences in
 
 **Model 2 Confusion Matrix:**
 
-![Model 2 Confusion Matrix](confusion_matrix_model2.png)
+![confusion_matrix_model2](https://github.com/user-attachments/assets/bc4c311f-5521-450b-b704-8ba0f8ce338e)
+
 
 ```
 [[46  4]
@@ -306,15 +308,19 @@ The Receiver Operating Characteristic (ROC) curves provide insight into the clas
 
 **Model 1 ROC Curve:**
 
-![Model 1 ROC Curve](roc_curve_model1.png)
+![roc_curve_model1](https://github.com/user-attachments/assets/74a7bd56-1d0e-44d4-8ca2-0f7348872bab)
 
-- AUC (Area Under Curve): 0.875
+
+
+- AUC (Area Under Curve):  0.6
 
 **Model 2 ROC Curve:**
 
-![Model 2 ROC Curve](roc_curve_model2.png)
+![roc_curve](https://github.com/user-attachments/assets/3e31cc94-46f4-4fe3-9dbb-0425334072a3)
 
-- AUC (Area Under Curve): 0.982
+
+
+- AUC (Area Under Curve):  0.9346
 
 Model 2's ROC curve demonstrates superior classification performance with an AUC closer to the ideal value of 1.0, indicating better discrimination between authentic and counterfeit samples across various threshold settings.
 
@@ -324,19 +330,21 @@ The training history plots reveal important differences in how each model learne
 
 **Model 1 Training History:**
 
-![Model 1 Training History](training_history_model1.png)
+![training_history_model1](https://github.com/user-attachments/assets/0dc5b6d7-0804-4549-a3f7-ad5f736db460)
 
-Model 1 showed signs of overfitting with validation accuracy plateauing around epoch 12 while training accuracy continued to rise.
+
+Model 1's training shows a characteristic pattern where validation loss initially decreases along with training loss but then begins to plateau after approximately 15 epochs. Meanwhile, training accuracy continues to rise while validation accuracy stabilizes, indicating the model begins to overfit to the training data in later epochs. This matches the model's strong training performance but weaker generalization to new data
 
 **Model 2 Training History:**
+![training_history_model2](https://github.com/user-attachments/assets/5a935946-2977-4ebb-9771-dd6de2481237)
 
-![Model 2 Training History](training_history_model2.png)
 
 **Model 2 Fine-tuning History:**
 
-![Model 2 Fine-tuning History](finetuned_training_history_model2.png)
+![finetuned_training_history](https://github.com/user-attachments/assets/eff13b54-f90c-406d-97f4-4ac43bfdb062)
 
-Model 2's two-phase training approach shows more stable learning curves with less divergence between training and validation metrics, indicating better generalization. The fine-tuning phase shows continued improvement with minimal overfitting.
+
+Model 2's two-phase training approach shows more stable learning curves. The initial phase establishes strong baseline performance with minimal gap between training and validation metrics. The fine-tuning phase then carefully optimizes performance while maintaining good generalization, with validation accuracy closely tracking training accuracy throughout both phases. This training stability translates directly to Model 2's superior performance on unseen data.
 
 #### 4.2.4 Precision-Recall Tradeoff
 
@@ -344,11 +352,13 @@ The precision-recall curves highlight the tradeoff between precision and recall 
 
 **Model 1 Precision-Recall Curve:**
 
-![Model 1 Precision-Recall](precision_recall_model1.png)
+![precision_recall_model1](https://github.com/user-attachments/assets/54201388-9b30-4dec-a3da-3d379250b99f)
+
 
 **Model 2 Precision-Recall Curve:**
 
-![Model 2 Precision-Recall](precision_recall_model2.png)
+![precision_recall_model2](https://github.com/user-attachments/assets/9d5f5df6-3937-41b9-96a6-cfc8e3f2644d)
+
 
 Model 2 maintains higher precision across a wider range of recall values, indicating superior performance in balancing false positives and false negatives.
 
