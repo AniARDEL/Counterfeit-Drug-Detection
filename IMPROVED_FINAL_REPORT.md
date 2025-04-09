@@ -51,7 +51,8 @@ Our analysis of visual features across authentic medications showed several cons
 | **Print Quality**     | High resolution            | Variable resolution        |
 | **Imprint Clarity**   | Clear, consistent depth    | Often shallow or irregular |
 
-![Feature Distribution](feature_distribution.png)
+![feature_distribution](https://github.com/user-attachments/assets/c90df38b-b6ae-4b1e-ba7e-9f706a5e7ce7)
+
 
 #### Class Imbalance Analysis
 
@@ -278,7 +279,8 @@ The confusion matrix for Model 2 illustrates its classification behavior on a re
 
 **Model 2 Confusion Matrix (1894 Test Samples):**
 
-![Model 2 Confusion Matrix](confusion_matrix_model2.png)
+![confusion_matrix_model2](https://github.com/user-attachments/assets/92f53fcd-89a2-4a1f-bf30-0590981dbb9b)
+
 
 ```
 [[1689   5]
@@ -295,7 +297,8 @@ The Receiver Operating Characteristic (ROC) curve provides insight into the clas
 
 **Model 2 ROC Curve:**
 
-![Model 2 ROC Curve](roc_curve_model2.png)
+![roc_curve](https://github.com/user-attachments/assets/f0a43b18-bbb2-4ff6-9106-81ef556039b5)
+
 
 - AUC (Area Under Curve): 0.935
 
@@ -307,11 +310,13 @@ The training history plots reveal how Model 2 learned during training:
 
 **Model 2 Training History:**
 
-![Model 2 Training History](training_history_model2.png)
+![training_history](https://github.com/user-attachments/assets/cffa691e-0df2-4433-a49f-9fa51e92e7a4)
+
 
 **Model 2 Fine-tuning History:**
 
-![Model 2 Fine-tuning History](finetuned_training_history_model2.png)
+![finetuned_training_history](https://github.com/user-attachments/assets/4356fc7d-7912-4fbd-b2e4-02b8fbc1f928)
+
 
 Model 2 used a two-phase training approach: initial training for 11 epochs followed by fine-tuning for 10 epochs. The initial phase establishes strong baseline performance with minimal gap between training and validation metrics. The fine-tuning phase then carefully optimizes performance while maintaining good generalization, with validation accuracy closely tracking training accuracy throughout both phases. This training stability translates directly to Model 2's superior performance on unseen data.
 
@@ -321,7 +326,8 @@ The precision-recall curve highlights the tradeoff between precision and recall 
 
 **Model 2 Precision-Recall Curve:**
 
-![Model 2 Precision-Recall](precision_recall_model2.png)
+![precision_recall_model2](https://github.com/user-attachments/assets/eb1c0c8f-d380-4a4d-be5c-e4b5fafafefb)
+
 
 This curve illustrates how different threshold choices affect the balance between precision and recall, allowing for adjustment based on the specific needs of different pharmaceutical verification scenarios.
 
@@ -360,7 +366,8 @@ For Model 2, we used Grad-CAM (Gradient-weighted Class Activation Mapping) to vi
 
 Model 2 shows a balanced feature importance distribution with greatest sensitivity to text/imprint quality and color consistency, aligning well with how human experts identify counterfeit medications.
 
-![Feature Importance Comparison](feature_importance_comparison.png)
+![feature_importance_comparison](https://github.com/user-attachments/assets/a07c786e-800f-4383-8ee4-1130c96bd296)
+
 
 ### 4.4 Speed Analysis
 
