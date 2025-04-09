@@ -127,10 +127,11 @@ pip install -r requirements.txt
 3. Run the application:
 
 ```bash
-python gradio_app.py
+python run_gradio.py
 ```
 
 4. Access the web interface in your browser at the URL displayed in the terminal (typically http://127.0.0.1:7860)
+   Public link (expires in 72h): https://5e3d0bf4a53be1ed0d.gradio.live/
 
 ## Usage
 
