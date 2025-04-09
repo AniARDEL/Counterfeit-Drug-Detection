@@ -174,8 +174,7 @@ counterfeit_detection_project/
 ├── test_and_evaluate.py        # Testing and evaluation scripts
 ├── synthetic_counterfeit_generator.py # Advanced counterfeit generator
 ├── requirements.txt            # Project dependencies
-├── IMPROVED_FINAL_REPORT.md    # Comprehensive report on enhanced system
-├── FINAL_REPORT.md             # Original project report
+├── REPORT.md                   # Comprehensive report on enhanced system
 ├── GRADIO_INTERFACE_GUIDE.md   # Guide for using the Gradio interface
 ├── data/                       # Dataset directory
 │   ├── authentic/              # Authentic pharmaceutical images
